@@ -1,9 +1,4 @@
 {
-<<<<<<< HEAD
-  "dependencies": {
-    "@tailwindcss/vite": "^4.2.4",
-    "tailwindcss": "^4.2.4"
-=======
   "name": "my-project",
   "private": true,
   "version": "0.0.0",
@@ -33,7 +28,8 @@
     "globals": "^17.5.0",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.58.2",
-    "vite": "^8.0.10"
->>>>>>> e6872d61e67ac0e65f0c0015677595d45b4a9a77
+    "vite": "^8.0.10",
+    "tailwindcss": "^4.2.4",
+    "@tailwindcss/vite": "^4.2.4"
   }
 }

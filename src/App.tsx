@@ -1,6 +1,6 @@
 import Contact from "./components/contactsection";
 import FAQSection from "./components/faqsection";
-import Herosection from "./components/hero section";
+import Herosection from "./components/herosection";
 import Navbar from "./components/navbar";
 import Projectcard from "./components/projectcard";
 import Portfoliocard from "./components/ui/portfoliocard";
