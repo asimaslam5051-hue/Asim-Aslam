@@ -1,0 +1,47 @@
+import Contact from "./components/contactsection";
+import FAQSection from "./components/faqsection";
+import Herosection from "./components/hero section";
+import Navbar from "./components/navbar";
+import Projectcard from "./components/projectcard";
+import Portfoliocard from "./components/ui/portfoliocard";
+
+function App() {
+  return (
+    <>
+      {/* Navbar */}
+      <Navbar />
+
+      <section className=" relative w-full bg-black px-4 sm:px-6 py-24 text-white">
+        
+        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-10 lg:gap-16">
+          
+          {/* LEFT SIDE */}
+          <div className="w-full lg:w-[40%] relative">
+            
+            {/* Sticky Card */}
+            <div className="sticky top-10 self-start">
+              <Portfoliocard />
+            </div>
+
+          </div>
+
+          {/* RIGHT SIDE */}
+          <div className="w-full lg:w-[60%] space-y-10">
+            
+            <Herosection />
+
+            <Projectcard />
+
+            <Contact />
+
+            <FAQSection />
+
+          </div>
+
+        </div>
+      </section>
+    </>
+  );
+}
+
+export default App;
