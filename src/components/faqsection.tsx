@@ -6,39 +6,38 @@ type Item = {
   trigger: string;
   content: string;
 };
-
 const items: Item[] = [
   {
-    id: "safety",
-    trigger: "what services do you offer?",
+    id: "services",
+    trigger: "What services do you offer?",
     content:
-      "I provided a range of vservices including product design,Web Development, and User experience(UX) consulting tailorder to meet your project needs.",
+      "I provide a range of services including product design, web development, and user experience (UX) consulting tailored to meet your project needs.",
   },
   {
-    id: "age",
+    id: "process",
     trigger: "What is your design process?",
-    content: "my design process involves understanding client goals, conducting user,research,creating wireframes and prototypes and iterating based on feedback to ensure the final product meets user needs",
-
+    content:
+      "My design process involves understanding client goals, conducting user research, creating wireframes and prototypes, and iterating based on feedback to ensure the final product meets user needs.",
   },
   {
-    id: "device",
-    trigger: "How do you handle project timeline?",
-    content: "i work closely with clients to establish clear timeline and milestons, ensuring that projects stay on track and delivered on time",
+    id: "timeline",
+    trigger: "How do you handle project timelines?",
+    content:
+      "I work closely with clients to establish clear timelines and milestones, ensuring that projects stay on track and are delivered on time.",
   },
   {
-    id: "family",
-    trigger: "Can you work with existing team?",
-    content: "Absolutely! I can collaborate seamlessly with existing teams,integrating into your workflow to enhance design and development efforts.",
+    id: "team",
+    trigger: "Can you work with an existing team?",
+    content:
+      "Absolutely! I can collaborate seamlessly with existing teams, integrating into your workflow to enhance design and development efforts.",
   },
-  
   {
-    id: "cancel",
+    id: "tools",
     trigger: "What tools do you use?",
     content:
-      "I utilize various tools for design and development including HTML, CSS, Javascript TaiwindCSS and React ensuring  high-quality outcomes for all projects.",
+      "I utilize various tools for design and development including HTML, CSS, JavaScript, Tailwind CSS, and React to ensure high-quality outcomes for all projects.",
   },
 ];
-
 const FAQSection = () => {
   const [open, setOpen] = useState<string | null>(null);
 
@@ -49,7 +48,7 @@ const FAQSection = () => {
     >
       <div className="max-w-7xl mx-auto px-8">
         <div className="text-center md:text-left px-4">
-          <h2 className="text-4xl text-white md:text-6xl mb-8  font-bold">
+          <h2 className="text-4xl lg:text-7xl lg:text-start text-white md:text-6xl mb-8  font-bold">
             Frequently
             Asked <br /><span className="text-[#F46C38]">Questions</span>
           </h2>

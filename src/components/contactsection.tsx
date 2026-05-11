@@ -6,7 +6,7 @@ const Contact = () => {
     >
       <div className="max-w-7xl mx-auto px-8">
           <div className="text-center md:text-left px-8">
-            <h1 className="text-4xl text-white md:text-7xl   font-bold">
+            <h1 className="text-4xl text-center lg:text-7xl lg:text-start text-white md:text-7xl   font-black">
                LET'S WORK<br />
               <span className="text-[#B6B4BD33]">TOGETHER</span>
              </h1>

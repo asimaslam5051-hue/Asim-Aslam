@@ -30,14 +30,14 @@ const projects = [
 
 const Projectcard = () => {
   return (
-    <section id="projects" className="bg-black w-full py-20">
+    <section id="projects" className="bg-black w-full py-10">
       <div className="max-w-5xl mx-auto px-6">
 
         {/* Heading */}
         <div className="mb-12">
-          <h2 className="text-4xl sm:text-6xl font-bold text-white">
-            Featured{" "}
-            <span className="text-[#F46C38]">Projects</span>
+          <h2 className="text-4xl text-center  lg:text-8xl lg:text-start lg:font-black font-black text-white">
+           RECENT {" "}
+            <span className="text-[#F46C38]">PROJECTS</span>
           </h2>
         </div>
 
@@ -62,7 +62,7 @@ const Projectcard = () => {
 
               {/* Content */}
               <div className="flex-1">
-                <h3 className="text-2xl font-bold text-white">
+                <h3 className="text-sm  md:text-xl lg:text-2xl font-bold text-white">
                   {project.title}
                 </h3>
 

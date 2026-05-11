@@ -16,10 +16,10 @@ const Portfoliocard = () => {
             </div>
             {/*Bio*/}
             <div className="relative z-10 mt-6 text-center">
-                <h2 className="text-3xl font-bold text-black  tracking-tight">
+                <h2 className="text-3xl font-black text-black  tracking-tight">
                     Asim Aslam
                 </h2>
-                <p className="text-lg text-gray-600 mt-12 leading-snug">  
+                <p className="text-md text-[#6A6B6E] mt-12 font-semibold leading-snug">  
                     A Web developer who has developed countless innovative solutions.
                 </p>
                 <div className="flex items-center md:justify-center justify-center gap-2 mt-4">
