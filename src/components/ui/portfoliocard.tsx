@@ -4,7 +4,7 @@ import { LiaLinkedin } from "react-icons/lia";
 import { FaYoutube } from "react-icons/fa";
 const Portfoliocard = () => {
     return (
-        <div className=" fix relative bg-white p-8  overflow-hidden shadow-xl rounded-2xl max-w-xs mx-auto mt-14">
+        <div className=" fix relative bg-white p-8  justify-end overflow-hidden shadow-xl rounded-2xl max-w-xs mx-auto mt-14">
           
             {/*portfolio image */}
             <div className="relative flex justify-center ">

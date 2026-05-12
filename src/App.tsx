@@ -4,7 +4,8 @@ import FAQSection from "./components/faqsection";
 import Herosection from "./components/herosection";
 import Navbar from "./components/navbar";
 import Projectcard from "./components/projectsection";
-import Thought from "./components/thoughtsection";
+import TestimonialsSection  from "./components/testimonialsection";
+import Skills from "./components/skillsandlanguagesection";
 import Portfoliocard from "./components/ui/portfoliocard";
 
 function App() {
@@ -12,13 +13,14 @@ function App() {
     <>
       {/* Navbar */}
       <Navbar />
+      
 
       <section className=" relative w-full bg-black px-4 sm:px-6 py-24 text-white">
         
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-8 lg:gap-16">
+        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-2 lg:gap-12">
           
           {/* LEFT SIDE */}
-          <div className="w-full lg:w-[40%] relative">
+          <div className="w-full lg:w-[30%]  relative">
             
             {/* Sticky Card */}
             <div className="sticky top-10 self-start">
@@ -28,13 +30,14 @@ function App() {
           </div>
 
           {/* RIGHT SIDE */}
-          <div className="w-full lg:w-[60%] space-y-10">
+          <div className="w-full lg:w-[70%] space-y-10">
             
             <Herosection />
 
             <Projectcard />
             <Experience/>
-            <Thought/>
+            <TestimonialsSection/>
+            <Skills/>
             <Contact />
             <FAQSection />
 

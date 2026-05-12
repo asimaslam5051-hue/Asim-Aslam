@@ -31,7 +31,7 @@ const projects = [
 const Projectcard = () => {
   return (
     <section id="projects" className="bg-black w-full py-10">
-      <div className="max-w-5xl mx-auto px-6">
+      <div className="max-w-5xl mx-auto px-6 ">
 
         {/* Heading */}
         <div className="mb-12">
@@ -42,7 +42,7 @@ const Projectcard = () => {
         </div>
 
         {/* Cards */}
-        <div className="space-y-5">
+        <div className="space-y-6">
           {projects.map((project, index) => (
             <a
               key={index}
@@ -52,7 +52,7 @@ const Projectcard = () => {
               className="group relative flex items-center gap-5 bg-[#B6B4BD14] border border-white/10 hover:border-[#F46C38] rounded-2xl p-4 transition-all duration-300"
             >
               {/* Image */}
-              <div className="w-28 h-24 overflow-hidden rounded-xl shrink-0">
+              <div className="size-36 overflow-hidden rounded-xl shrink-0">
                 <img
                   src={project.image}
                   alt={project.title}

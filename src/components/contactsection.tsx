@@ -12,7 +12,7 @@ const Contact = () => {
              </h1>
           </div>   
         {/* Form */}
-          <form className="rounded-3xl p-4">
+          <form className="rounded-3xl p-4 lg:p-12">
 
             {/* Inputs */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-5">

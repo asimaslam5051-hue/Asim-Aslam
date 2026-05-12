@@ -6,7 +6,6 @@ import {
   Pencil,
 } from "lucide-react";
 
-import { useEffect, useState } from "react";
 
 const navItems = [
   {
@@ -37,50 +36,11 @@ const navItems = [
 ];
 
 const Navbar = () => {
-  const [scrollY, setScrollY] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollY(window.scrollY);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () =>
-      window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  /*
-    RIGHT SIDE half scroll hone ke baad navbar move hoga
-  */
-
-  const startMove = 150;
-
-  const topPosition =
-    scrollY < startMove
-      ? 40
-      : Math.max(40 - (scrollY - startMove) * 0.25, -120);
-
+ 
   return (
     <nav
-      style={{
-        top: `${topPosition}px`,
-      }}
-      
-      className="
-        fixed
-        left-1/2
-        -translate-x-1/2
-        z-50
-        bg-white/5
-        backdrop-blur-xl
-        border border-white/10
-        px-2
-        py-1
-        rounded-2xl
-        transition-all
-        duration-75
-      "
+     
+      className=" fixed left-1/2 top-10 -translate-x-1/2 z-50 bg-white/5 backdrop-blur-xl border border-white/10 px-2b py-1 rounded-2xl transition-all duration-75"
     >
       <div className="flex items-center gap-1 sm:gap-2">
         {navItems.map((item, index) => {
