@@ -1,8 +1,10 @@
 import Contact from "./components/contactsection";
+import Experience from "./components/experiencesection";
 import FAQSection from "./components/faqsection";
 import Herosection from "./components/herosection";
 import Navbar from "./components/navbar";
-import Projectcard from "./components/projectcard";
+import Projectcard from "./components/projectsection";
+import Thought from "./components/thoughtsection";
 import Portfoliocard from "./components/ui/portfoliocard";
 
 function App() {
@@ -13,7 +15,7 @@ function App() {
 
       <section className=" relative w-full bg-black px-4 sm:px-6 py-24 text-white">
         
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-10 lg:gap-16">
+        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-8 lg:gap-16">
           
           {/* LEFT SIDE */}
           <div className="w-full lg:w-[40%] relative">
@@ -31,9 +33,9 @@ function App() {
             <Herosection />
 
             <Projectcard />
-
+            <Experience/>
+            <Thought/>
             <Contact />
-
             <FAQSection />
 
           </div>

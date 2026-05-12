@@ -6,13 +6,13 @@ const Contact = () => {
     >
       <div className="max-w-7xl mx-auto px-8">
           <div className="text-center md:text-left px-8">
-            <h1 className="text-4xl text-center lg:text-7xl lg:text-start text-white md:text-7xl   font-black">
+            <h1 className="text-4xl text-start lg:text-7xl lg:text-start text-white md:text-7xl   font-black">
                LET'S WORK<br />
               <span className="text-[#B6B4BD33]">TOGETHER</span>
              </h1>
           </div>   
         {/* Form */}
-          <form className=" backdrop-blur-xl  rounded-3xl p-8 shadow-2xl hover:">
+          <form className="rounded-3xl p-4">
 
             {/* Inputs */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-5">
