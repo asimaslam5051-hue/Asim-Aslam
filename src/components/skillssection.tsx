@@ -35,8 +35,8 @@ const skills = [
 const Skills = () => {
   return (
     <section
-      id="skillscard"
-      className="relative overflow-hidden py-12 bg-black"
+      id="skills"
+      className="relative overflow-hidden py-4 bg-black"
     >
       {/* Left Gradient */}
       <div className="absolute inset-y-0 left-0 w-16 sm:w-32 bg-gradient-to-r from-black to-transparent z-10 pointer-events-none" />

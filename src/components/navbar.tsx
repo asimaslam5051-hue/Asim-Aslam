@@ -2,39 +2,37 @@ import {
   Home,
   Folder,
   Briefcase,
-  Wrench,
-  Pencil,
+  Mail,
+  Brain,
 } from "lucide-react";
-
 
 const navItems = [
   {
     name: "Home",
     icon: Home,
-    link: "/home",
+    link: "#home",
   },
   {
     name: "Projects",
     icon: Folder,
-    link: "/projects",
+    link: "#projects",
   },
   {
     name: "Experience",
     icon: Briefcase,
-    link: "/experience",
+    link: "#experience",
   },
   {
-    name: "Tools",
-    icon: Wrench,
-    link: "/tools",
+    name: "Skills",
+    icon: Brain,
+    link: "#skills",
   },
-  {
-    name: "Thoughts",
-    icon: Pencil,
-    link: "/blog",
+   {
+    name: "Contact",
+    icon: Mail,
+    link: "#contact",
   },
 ];
-
 const Navbar = () => {
  
   return (

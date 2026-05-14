@@ -5,7 +5,7 @@ import Herosection from "./components/herosection";
 import Navbar from "./components/navbar";
 import Projectcard from "./components/projectsection";
 import TestimonialsSection  from "./components/testimonialsection";
-import Skills from "./components/skillsandlanguagesection";
+import Skills from "./components/skillssection";
 import Portfoliocard from "./components/ui/portfoliocard";
 
 function App() {
@@ -33,7 +33,6 @@ function App() {
           <div className="w-full lg:w-[70%] space-y-10">
             
             <Herosection />
-
             <Projectcard />
             <Experience/>
             <TestimonialsSection/>
