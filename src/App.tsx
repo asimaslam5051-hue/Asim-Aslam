@@ -1,6 +1,7 @@
 import Contact from "./components/contactsection";
 import Experience from "./components/experiencesection";
 import FAQSection from "./components/faqsection";
+import Footer from "./components/footersection";
 import Herosection from "./components/herosection";
 import Navbar from "./components/navbar";
 import Projectcard from "./components/projectsection";
@@ -37,10 +38,10 @@ function App() {
             <Skills/>
             <Contact />
             <FAQSection />
-
+           
           </div>
-
-        </div>
+         </div>
+         <Footer/>
       </section>
     </>
   );

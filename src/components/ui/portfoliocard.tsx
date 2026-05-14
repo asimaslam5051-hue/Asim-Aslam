@@ -9,7 +9,7 @@ const Portfoliocard = () => {
             {/*portfolio image */}
             <div className="relative flex justify-center">
 
-                
+
 
                 {/* Image Card */}
                 <div
@@ -42,10 +42,18 @@ const Portfoliocard = () => {
                     <a href="#" className="p-2  rounded-full transition">
                         <BsTwitter className="size-6 text-[#F46C38]" />
                     </a>
-                    <a href="#" className="p-2 rounded-full  transition">
+                    <a
+                        href="https://www.linkedin.com/feed/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="rounded-full p-2 transition"
+                    >
                         <LiaLinkedin className="size-6 text-[#F46C38]" />
                     </a>
-                    <a href="#" className="p-2 rounded-full  transition">
+                    <a href="https://www.youtube.com/" 
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       className="p-2 rounded-full  transition">
                         < FaYoutube className="size-6 text-[#F46C38]" />
                     </a>
                 </div>
