@@ -6,6 +6,7 @@ import Herosection from "./components/herosection";
 import Navbar from "./components/navbar";
 import Projectcard from "./components/projectsection";
 import Skills from "./components/skillssection";
+import TestimonialsSection from "./components/testimonialsection";
 import Portfoliocard from "./components/ui/portfoliocard";
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
             <Herosection />
             <Projectcard />
             <Experience/>
+            <TestimonialsSection/>
             <Skills/>
             <Contact />
             <FAQSection />
