@@ -1,6 +1,6 @@
 import  { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper } from 'swiper/react';
 
 const testimonials = [
   {
