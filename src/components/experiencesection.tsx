@@ -64,7 +64,7 @@ const Experience = () => {
               href={blog.link || "#"}
               target="_blank"
               rel="noopener noreferrer"
-              className="group block border border-white/10 rounded-3xl p-6 hover:bg-[#F46C38] hover:border-white/5 transition-all duration-300"
+              className="group block border border-white/10 rounded-3xl p-6 hover:bg-[#F46C38] hover:border-white/5 transition-all duration-500"
             >
               <div className="flex flex-col md:flex-row gap-6 items-start">
 

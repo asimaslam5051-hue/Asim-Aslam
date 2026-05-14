@@ -4,7 +4,6 @@ import FAQSection from "./components/faqsection";
 import Herosection from "./components/herosection";
 import Navbar from "./components/navbar";
 import Projectcard from "./components/projectsection";
-import TestimonialsSection  from "./components/testimonialsection";
 import Skills from "./components/skillssection";
 import Portfoliocard from "./components/ui/portfoliocard";
 
@@ -15,7 +14,7 @@ function App() {
       <Navbar />
       
 
-      <section className=" relative w-full bg-black px-4 sm:px-6 py-24 text-white">
+      <section className=" relative w-full bg-black px-4 sm:px-6 py-18 text-white">
         
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-2 lg:gap-12">
           
@@ -35,7 +34,6 @@ function App() {
             <Herosection />
             <Projectcard />
             <Experience/>
-            <TestimonialsSection/>
             <Skills/>
             <Contact />
             <FAQSection />

@@ -2,65 +2,156 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-16  bg-black text-white"
+      className="bg-black py-16 text-white"
     >
-      <div className="max-w-7xl mx-auto px-8">
-          <div className="text-center md:text-left px-8">
-            <h1 className="text-4xl text-start lg:text-7xl lg:text-start text-white md:text-7xl   font-black">
-               LET'S WORK<br />
-              <span className="text-[#B6B4BD33]">TOGETHER</span>
-             </h1>
-          </div>   
+      <div className="mx-auto max-w-7xl px-6 lg:px-12">
+
+        {/* Heading */}
+        <div className="mb-12">
+          <h1 className="text-4xl font-black text-white md:text-6xl lg:text-7xl">
+            LET'S WORK <br />
+            <span className="text-[#B6B4BD33]">
+              TOGETHER
+            </span>
+          </h1>
+        </div>
+
         {/* Form */}
-          <form className="rounded-3xl p-4 lg:p-12">
+        <form
+          className="
+            rounded-[2rem]
+            border
+            border-white/10
+            bg-white/5
+            p-6
+            lg:p-12 shadow-[0_0_50px_rgba(244,108,56,0.08)]
+          "
+        >
 
-            {/* Inputs */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-5">
-              <input
-                type="text"
-                placeholder="First Name"
-                className="w-full bg-[#B6B4BD33] border border-white/5 hover:border border-[#F46C38] rounded-xl px-5 py-3 text-white placeholder:text-gray-500 outline-none focus:border-orange-500 transition"
-                required
-              />
+          {/* Inputs */}
+          <div className="mb-5 grid grid-cols-1 gap-5 md:grid-cols-2">
 
-              <input
-                type="email"
-               placeholder="contact@bundui.com"
-                className="w-full bg-[#B6B4BD33] border border-white/10 rounded-xl px-5 py-3 text-white placeholder:text-gray-500 outline-none focus:border-orange-500 transition"
-                required
-              />
-            </div>
-
-            {/* Select */}
-            <select
-              className="w-full bg-[#B6B4BD33] border border-white/10 rounded-xl px-5 py-3 text-gray-500 outline-none focus:border-orange-500 transition mb-5"
-              required
-            >
-              <option className="bg-[#B6B4BD33]">Select...</option>
-              <option>$3K</option>
-              <option>$3k-$5k</option>
-              <option>$5k-$10k</option>
-              <option>$10k-$15k</option>
-            </select>
-
-            {/* Textarea */}
-            <textarea
-              rows={5}
-              placeholder="Your Message"
-              className="w-full bg-[#B6B4BD33] border border-white/10 rounded-xl px-5 py-3 text-white placeholder:text-gray-500 outline-none resize-none focus:border-orange-500 transition mb-6"
+            <input
+              type="text"
+              placeholder="First Name"
+              className="
+                w-full
+                rounded-2xl
+                border
+                border-white/10
+                bg-[#1A1A1A]
+                px-5
+                py-4
+                text-white
+                placeholder:text-gray-500
+                outline-none
+                transition-all
+                duration-300
+                focus:border-[#F46C38]
+                focus:ring-2
+                focus:ring-[#F46C38]/20
+              "
               required
             />
 
-            {/* Button */}
-            <button
-              type="submit"
-              className="w-full py-3 rounded-xl bg-[#F46C38]  text-white font-semibold transition-all duration-300 hover:scale-[1.02]"
-            >
-              Submit
-            </button>
-          </form>
-        </div>
-      
+            <input
+              type="email"
+              placeholder="contact@bundui.com"
+              className="
+                w-full
+                rounded-2xl
+                border
+                border-white/10
+                bg-[#1A1A1A]
+                px-5
+                py-4
+                text-white
+                placeholder:text-gray-500
+                outline-none
+                transition-all
+                duration-300
+                focus:border-[#F46C38]
+                focus:ring-2
+                focus:ring-[#F46C38]/20
+              "
+              required
+            />
+          </div>
+
+          {/* Select */}
+          <select
+            className="
+              mb-5
+              w-full
+              rounded-2xl
+              border
+              border-white/10
+              bg-[#1A1A1A]
+              px-5
+              py-4
+              text-gray-400
+              outline-none
+              transition-all
+              duration-300
+              focus:border-[#F46C38]
+              focus:ring-2
+              focus:ring-[#F46C38]/20
+            "
+            required
+          >
+            <option>Select Budget</option>
+            <option>$3K</option>
+            <option>$3K - $5K</option>
+            <option>$5K - $10K</option>
+            <option>$10K - $15K</option>
+          </select>
+
+          {/* Textarea */}
+          <textarea
+            rows={6}
+            placeholder="Tell me about your project..."
+            className="
+              mb-6
+              w-full
+              resize-none
+              rounded-2xl
+              border
+              border-white/10
+              bg-[#1A1A1A]
+              px-5
+              py-4
+              text-white
+              placeholder:text-gray-500
+              outline-none
+              transition-all
+              duration-300
+              focus:border-[#F46C38]
+              focus:ring-2
+              focus:ring-[#F46C38]/20
+            "
+            required
+          />
+
+          {/* Button */}
+          <button
+            type="submit"
+            className="
+              w-full
+              rounded-2xl
+              bg-[#F46C38]
+              px-6
+              py-2
+              text-lg
+              font-semibold
+              text-white
+              transition-all
+              duration-300
+            "
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
     </section>
   );
 };

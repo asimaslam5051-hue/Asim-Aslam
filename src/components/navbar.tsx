@@ -4,6 +4,7 @@ import {
   Briefcase,
   Mail,
   Brain,
+  CircleHelp,
 } from "lucide-react";
 
 const navItems = [
@@ -32,13 +33,18 @@ const navItems = [
     icon: Mail,
     link: "#contact",
   },
+   {
+    name: "FAQ",
+    icon: CircleHelp,
+    link: "#faq",
+  },
 ];
 const Navbar = () => {
  
   return (
     <nav
      
-      className=" fixed left-1/2 top-10 -translate-x-1/2 z-50 bg-white/5 backdrop-blur-xl border border-white/10 px-2b py-1 rounded-2xl transition-all duration-75"
+      className=" fixed left-1/2 top-5 -translate-x-1/2 z-50 bg-white/5 backdrop-blur-xl border border-white/10 px-2b py-1 rounded-2xl transition-all duration-75"
     >
       <div className="flex items-center gap-1 sm:gap-2">
         {navItems.map((item, index) => {
@@ -54,7 +60,7 @@ const Navbar = () => {
               <span
                 className="
                   absolute
-                  -top-11
+                  -bottom-9
                   scale-95
                   opacity-0
                   group-hover:opacity-100
