@@ -49,7 +49,7 @@ const Experience = () => {
         {/* Heading */}
         <div className="mb-14">
           <h2 className="text-4xl text-center lg:text-6xl lg:text-start font-black leading-none text-white">
-            2 YEARS OF<br/>
+            1 YEARS OF<br/>
             <span className="text-[#B6B4BD33]">
               EXPERIENCE
             </span>
@@ -64,7 +64,7 @@ const Experience = () => {
               href={blog.link || "#"}
               target="_blank"
               rel="noopener noreferrer"
-              className="group block border border-white/10 rounded-3xl p-6 hover:bg-[#F46C38] hover:border-white/5 transition-all duration-500"
+              className="group block border border-white/10 rounded-3xl p-6 hover:bg-[#F46C38] hover:border-white/5 transition-all duration-100"
             >
               <div className="flex flex-col md:flex-row gap-6 items-start">
 
@@ -89,7 +89,7 @@ const Experience = () => {
                     </div>
 
                     {/* Arrow */}
-                    <div className="hidden md:flex items-center justify-center w-14 h-14 rounded-full bg-[#F46C38] text-white text-2xl group-hover:bg-white group-hover:text-[#F46C38] transition">
+                    <div className="hidden md:flex items-center justify-center w-14 h-14 rounded-full bg-[#F46C38] text-white text-2xl group-hover:bg-white group-hover:text-[#F46C38] transition-all duration-100">
                       ↗
                     </div>
 

@@ -2,7 +2,7 @@
 
 const stats = [
     {
-        number: "+2",
+        number: "+1",
         line1: "YEARS OF",
         line2: "EXPERIENCE",
     },

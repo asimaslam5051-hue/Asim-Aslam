@@ -46,7 +46,7 @@ const FAQSection = () => {
       id="faq"
       className="py-4  bg-black text-white"
     >
-      <div className="max-w-7xl mx-auto px-8">
+      <div className="max-w-7xl  px-8">
         <div className="text-center md:text-left px-4">
           <h2 className="text-4xl lg:text-7xl lg:text-start text-white md:text-6xl mb-8  font-bold">
             Frequently

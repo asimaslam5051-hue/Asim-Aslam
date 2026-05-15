@@ -36,8 +36,8 @@ function App() {
             <Herosection />
             <Projectcard />
             <Experience/>
-            <TestimonialsSection/>
             <Skills/>
+            <TestimonialsSection/>
             <Contact />
             <FAQSection />
            

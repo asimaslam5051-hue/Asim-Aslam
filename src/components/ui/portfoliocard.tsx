@@ -18,7 +18,7 @@ const Portfoliocard = () => {
                     <img
                         src="/images/image.png"
                         alt="portfolio"
-                        className=" h-80 w-75 rounded-[1.5rem] object-cover border border-4  "
+                        className=" h-70 w-65 rounded-[1.5rem] object-cover items-center  border-all border-4  "
                     />
 
 
@@ -31,10 +31,10 @@ const Portfoliocard = () => {
                 <h2 className="text-3xl font-black text-black  tracking-tight">
                     Asim Aslam
                 </h2>
-                <p className="text-md text-[#6A6B6E] mt-12 font-semibold leading-snug">
-                    A Web developer who has developed countless innovative solutions.
+                <p className="text-lg text-[#6A6B6E]  mt-12 font-semibold leading-snug">
+                    Passionate Web Developer turning ideas into fast, interactive, and visually engaging websites.
                 </p>
-                <div className="flex items-center md:justify-center justify-center gap-2 mt-4">
+                <div className="flex items-center md:justify-center justify-center gap-2 mt-6">
                     <a href="#" className="p-2  rounded-full  transition">
 
                         <FaFacebook className="size-6 text-[#F46C38] " />

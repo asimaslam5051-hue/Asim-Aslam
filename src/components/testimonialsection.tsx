@@ -1,24 +1,22 @@
 import  { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { Swiper } from 'swiper/react';
-
 const testimonials = [
   {
-    name: "William M.",
+    name: "Ahmad Hussain.",
     avatarUrl:
       "https://framerusercontent.com/images/iABb6ejla3A5ZzE4zgxiPqBaYHI.jpg",
     feedback:
       "John expertly blends design with functionality, transforming our product into a sleek experience.",
   },
   {
-    name: "Robert P.",
+    name: "Mubasir khan.",
     avatarUrl:
       "https://framerusercontent.com/images/HqoHkPp6dpJFdgMqUKIaAXmy7o.jpg",
     feedback:
       "Working with John was a pleasure. He transformed our ideas into a polished product.",
   },
   {
-    name: "James K.",
+    name: "Sulaman Akbar.",
     avatarUrl:
       "https://framerusercontent.com/images/7ckekOZAa0J28C2T3IfYTvNDv5U.jpg",
     feedback:
@@ -43,13 +41,7 @@ const TestimonialsSection = () => {
 
   return (
     <section className="w-full py-12">
-      <Swiper
-        spaceBetween={50}
-        slidesPerView={3}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
-      >
-        
+      
 
 
         {/* Heading */}
@@ -115,7 +107,7 @@ const TestimonialsSection = () => {
           </div>
 
         </div>
-      </Swiper>
+     
     </section>
   )
 }
